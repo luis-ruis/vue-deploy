@@ -15,4 +15,5 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  base: 'https://luis-ruis.github.io/vue-deploy/',
 })
